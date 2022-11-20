@@ -1,0 +1,48 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            input:required{
+                border-color: rgb(0, 128, 6);
+            }
+        </style>
+    </head>
+    <body background="https://i.pinimg.com/originals/7a/e7/81/7ae7817b2c0bc757ccdd9197daec4741.jpg">
+        <h1>Кто твой кот?</h1>
+        <form>
+        <div>  
+        <fieldset> <legend>Имя</legend>
+<div><label for="name"></label> 
+    <input type="text" id="name" placeholder="Имя Владельца" required/></div><br>
+<div><label for="name"></label>
+    <input type="text" id="name" placeholder="Имя Питомца" required/></div><br>
+<div><label for="name"></label>
+    <input type="tel" id="name" placeholder="Телефон" pattern="/^\+?(\d{1,3})?[- .]?\(?(?:\d{2,3})\)?[- .]?\d\d\d[- .]?\d\d\d\d$/" minlength="10" maxlength="20"/></div><br>
+<div><label for="email"></label>
+    <input type="email" id="email" placeholder="Email" required/></div>
+</fieldset><br>
+<div> Выберите породу <br> <br>
+    <select>
+        <option value="1">Мейн-Кун</option>
+        <option value="2">Манчкин</option>
+        <option value="3">Сибирская кошка</option>
+        <option value="4">Шотландская вислоухоя кошка</option>
+        <option value="5">Бурма</option>
+    </select>
+</div><br>
+<div>Чем питается ваш котик?</div>
+<div>Сухой корм<input type="checkbox"> </div> 
+<div>Влажный корм<input type="checkbox"> </div>
+<div>Натуральный корм<input type="checkbox"> </div>  <br>
+<div>Можно ли давать котам курицу?</div>
+<div>ДА<input type="radio" name="Mila"> НЕТ<input type="radio" name="Mila"> </div> <br>
+<div>Напишите забавный факт о вашем питомце <br> <br> <textarea rows="8">Забавный факт</textarea> </div><br>
+<div>Прикрепите фото вашего питомца <input type="file"></div><br>
+<button type="submit">Сохранить</button></div>
+</form>
+    </body>
+    </html>

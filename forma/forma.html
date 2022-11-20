@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./forma.css" type="text/css">
+    <title>Создайте аккаунт Google</title>
+</head>
+<body class="border">
+    <img type="icon" src="./img/image-6362-1621591055.jpg" class="icon">
+    <div class="forma">
+    <h1>Создайте аккаунт Google</h1>
+    <div>
+    <input class="field" type="name" id="nameM" placeholder="Имя" min="1" max="16">
+    <input class="field" type="surname" id="surnameM" placeholder="Фамилия" min="1" max="25">
+</div><br>
+    <input class="field" type="username" id="usernameM" placeholder="Имя пользователя" min="7" max="25">
+    <p>Можно использовать буквы латинского алфавита, цифры и точки.</ф>
+    <div class="password">
+    <input class="field" type="password" id="password-input" placeholder="Пароль" name="password" min="8" max="25">
+    <input class="field" type="passwordPovtor" id="passwordPovtor" name="password" placeholder="Подтвердить пароль" min="8" max="25">
+    <p>Пароль должен содержать не менее восьми знаков, 
+        <br> включать буквы, цифры и специальные символы</p>
+        <label><input type="checkbox" class="password-checkbox"> Показать пароль</label>
+       
+        <button class="button" onclick="checkAll();" type="button">Далее</button>
+        <div id="errorMessage"></div>
+</div>
+</div>
+    <script src="./forma.js"></script>
+</body>
+</html>
